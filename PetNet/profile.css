@@ -1,0 +1,199 @@
+body {
+    background: #f5f5f5;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.ui-w-80 {
+    width : 80px !important;
+    height: auto;
+    
+}
+.logo{
+
+    width: 20%;
+   height: 5%;
+   margin-left: 20px;
+   padding:2px;
+   margin-top: -14px;
+   
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background  : rgba(0, 0, 0, 0);
+    color       : #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background  : transparent;
+    color       : #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #3B5998;
+    color       : #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #000;
+    color       : #fff;
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+.form-control{
+    background-color: #F5EFFF !important; 
+    border-color: #F5EFFF !important;
+}
+.form-label{
+    font-weight: bold;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+   
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+    background-color: #CDC1FF !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+.list-group-item-action{
+    background-color: #F5EFFF !important; 
+}
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+/*** Footer ***/
+.footer{
+    background-color: #FBF9FF;
+  }
+  .footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+  }
+  
+  .footer .btn.btn-social:hover {
+    color: #A294F9;
+  }
+  
+  .footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+  
+  .footer .btn.btn-link::before {
+    text-decoration: none;
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #000000;
+  }
+  
+  .footer .btn.btn-link:hover {
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: none;
+  }
+  
+  .footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+  }
+  
+  .footer .copyright a {
+    color: var(--light);
+  }
+  
+  .footer .copyright a:hover {
+    color: #A294F9;
+  }
+  .footerlogo{
+    width:40%;
+    margin-bottom: 20px;
+  }
+  
