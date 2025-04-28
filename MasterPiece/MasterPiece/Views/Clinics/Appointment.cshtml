@@ -1,0 +1,146 @@
+﻿@using MasterPiece.ViewModel
+
+@model ServiceTypeAppointment 
+
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Appointment.css" />
+}
+
+@* @section Scripts { *@
+@*     <script src="~/js/site.js"></script> *@
+@*     <script> *@
+@*         document.addEventListener("DOMContentLoaded", function () { *@
+@*             var successMessage = '@TempData["SuccessMessage"]'; *@
+@*             if (successMessage) { *@
+@*                 Swal.fire({ *@
+@*                     icon: 'success', *@
+@*                     title: 'Done!', *@
+@*                     text: successMessage, *@
+@*                     confirmButtonColor: '#A294F9' *@
+@*                 }); *@
+@*             } *@
+@*         }); *@
+@*     </script> *@
+
+@* } *@
+
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-color: #e6e3fb;">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Appointment</h2>
+
+    </div>
+</div><!-- End Breadcrumbs -->
+<!-- Appointment Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 10%;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Appointment</p>
+                <h1 class="mb-4">Make An Appointment To Visit Clinic</h1>
+                <p class="mb-4">Fill out the form below to schedule a service for your pet. Please provide your contact information and the needed service. We’ll get back to you shortly to confirm your appointment.</p>
+                <div class=" rounded d-flex align-items-center p-5 mb-4" style="background-color: #e6e3fb;">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-phone-alt " style="color: #A294F9;"></i>
+                    </div>
+                    <div class="ms-4">
+                        <p class="mb-2">Call Us Now</p>
+                        <h5 class="mb-0">+012 345 6789</h5>
+                    </div>
+                </div>
+                <div class=" rounded d-flex align-items-center p-5" style="background-color: #e6e3fb;">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-envelope-open " style="color: #A294F9;"></i>
+                    </div>
+                    <div class="ms-4">
+                        <p class="mb-2">Mail Us Now</p>
+                        <h5 class="mb-0">PetNet@gmail.com</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" style="margin-top: 10%;">
+                <!-- <img src="Img/AppointmentPhoto.png" style="width: 40%;height: 20%;margin-left: 60%;"> -->
+                <div class=" rounded h-100 d-flex align-items-center p-5" style="background-color: #e6e3fb;">
+                    <form asp-action="Appointment" method="post">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input asp-for="OwnerName" class="form-control" placeholder="Your Name" required style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input asp-for="OwnerPhone" class="form-control" placeholder="Your Mobile" required style="height: 55px;">
+                            </div>
+                            <!-- <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Pet Type" style="height: 55px;">
+                            </div> -->
+                            @* <div class="col-12 col-sm-6"> *@
+                                @* <select asp-for="PetType" class="form-select"> *@
+                                @*     <option selected disabled>Pet Type</option> *@
+                                @*     <option value="Cat">Cat</option> *@
+                                @*     <option value="Dog">Dog</option> *@
+                                @*     <option value="Rabbit">Rabbit</option> *@
+                                @* </select> *@
+                                @if (Model.PetType != null)
+                                {
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" value="@Model.PetType" readonly />
+                                        <input type="hidden" asp-for="PetType" />
+                                    </div>
+                                }
+                            @* </div> *@
+                            @* <div class="col-12 col-sm-6">  *@
+                            @*   <select asp-for="ServiceName" class="form-select">  *@
+                            @*         <option selected disabled>Choose Service</option>  *@
+                            @*        <option value="Vaccination">Vaccination</option>  *@
+                            @*        <option value="Grooming">Grooming</option>  *@
+                            @*            <option value="Surgery">Surgery</option>  *@
+                            @*      <option value="Dental Care">Dental Care</option>  *@
+                            @*         <option value="Check-Ups">Check-Ups</option>  *@
+                            @*     </select>  *@
+                            @* </div> *@
+                            @if (Model.ServiceName != null)
+                            {
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" value="@Model.ServiceName" readonly />
+                                    <input type="hidden" asp-for="ServiceName" />
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="col-12 col-sm-6">
+                                    <select asp-for="ServiceName" class="form-select">
+                                        <option selected disabled>Choose Service</option>
+                                        <option value="Vaccination">Vaccination</option>
+                                        <option value="Grooming">Grooming</option>
+                                        <option value="Surgery">Surgery</option>
+                                        <option value="Dental Care">Dental Care</option>
+                                        <option value="Check-Ups">Check-Ups</option>
+                                    </select>
+                                </div>
+                            }
+                            <div class="col-12 col-sm-6">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input asp-for="AppointmentDate" type="date" class="form-control" required style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input asp-for="AppointmentTime" type="time" class="form-control" required style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <textarea asp-for="Description" class="form-control" rows="3" placeholder="Describe your problem"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn  w-100 py-3" style="background-color:#CDC1FF ;color:white;">Book Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appointment End -->

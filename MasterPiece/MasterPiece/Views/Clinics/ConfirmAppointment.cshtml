@@ -1,0 +1,27 @@
+﻿@model MasterPiece.ViewModel.ServiceTypeAppointment
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ConfirmAppointment.css" />
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Appointment Confirmation</h2>
+    <div class="card p-4">
+        <h4>Thank you, @Model.OwnerName!</h4>
+        <p>Your appointment for <strong>@Model.ServiceName</strong> at <strong>@Model.ClinicName</strong> has been scheduled.</p>
+        <p><strong>Date:</strong> @Model.AppointmentDate.ToShortDateString()</p>
+        <p><strong>Time:</strong> @Model.AppointmentTime.ToShortTimeString()</p>
+        <p><strong>Pet Type:</strong> @Model.PetType</p>
+        <p><strong>Price:</strong> @Model.Price JD</p>
+
+        <hr />
+        <h5>Proceed to Payment</h5>
+        <form method="post" asp-action="ProcessPayment">
+            <input type="hidden" name="AppointmentId" value="@Model.Id" />
+            <input type="hidden" name="OwnerId" value="@Model.OwnerId" />
+            <input type="hidden" name="Amount" value="@Model.Price" />
+            <input type="hidden" name="PaymentMethod" value="Credit Card" />
+            <button type="submit" class="btn btn-success">Pay Now</button>
+        </form>
+    </div>
+</div>

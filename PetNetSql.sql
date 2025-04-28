@@ -1,7 +1,7 @@
 ﻿create database PetNet1;
 use PetNet1;
 
-CREATE TABLE Owners (   
+CREATE TABLE Pet_Owners (   
 	id INT PRIMARY KEY IDENTITY(1,1),
     name NVARCHAR(255) NOT NULL,
     email NVARCHAR(255) UNIQUE NOT NULL,
@@ -42,45 +42,28 @@ CREATE TABLE Admins (
    
 );
 
-CREATE TABLE Pets (
-    id INT PRIMARY KEY IDENTITY(1,1),
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE, 
-    name VARCHAR(255),
-    species VARCHAR(50), 
-    breed VARCHAR(100),
-    gender VARCHAR(100),
-    spayed VARCHAR(100),
-    birthdate DATE,
-    weight FLOAT,
-	image NVARCHAR(255),
-);
+
 
 
 CREATE TABLE Services (
     id INT PRIMARY KEY IDENTITY(1,1),
+    clinic_id INT FOREIGN KEY REFERENCES Clinics(id) ON DELETE CASCADE, -- كل خدمة تابعة لعيادة واحدة
     name NVARCHAR(255) NOT NULL,
-    description TEXT,
-   
+    description TEXT
 );
-CREATE TABLE Clinic_Services (
-    id INT PRIMARY KEY IDENTITY(1,1),
-    clinic_id INT FOREIGN KEY REFERENCES Clinics(id) ON DELETE CASCADE,
-    service_id INT FOREIGN KEY REFERENCES Services(id) ON DELETE CASCADE,
-  
-);
+
 CREATE TABLE Service_Types (
     id INT PRIMARY KEY IDENTITY(1,1),
     service_id INT FOREIGN KEY REFERENCES Services(id) ON DELETE CASCADE,
     name NVARCHAR(255) NOT NULL, -- مثال: فحص عادي، فحص متقدم
-    price DECIMAL(10,2) NOT NULL,
-   
+    price DECIMAL(10,2) NOT NULL
 );
 
 CREATE TABLE Appointments (
     id INT PRIMARY KEY IDENTITY(1,1),
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE, 
-    clinic_id INT FOREIGN KEY REFERENCES Clinics(id) ON DELETE CASCADE,
-    service_type_id INT FOREIGN KEY REFERENCES Service_Types(id) ON DELETE CASCADE,
+    owner_id INT FOREIGN KEY REFERENCES Pet_Owners(id) ON DELETE NO ACTION, 
+    clinic_id INT FOREIGN KEY REFERENCES Clinics(id) ON DELETE NO ACTION,
+    service_type_id INT FOREIGN KEY REFERENCES Service_Types(id) ON DELETE NO ACTION,
     appointment_date DATETIME NOT NULL,
 	appointment_time DATETIME NOT NULL,
     status NVARCHAR(20) CHECK (status IN ('Pending', 'Confirmed', 'Completed', 'Cancelled')),
@@ -90,8 +73,6 @@ CREATE TABLE Appointments (
 
 CREATE TABLE Chat (
     id INT PRIMARY KEY IDENTITY(1,1),
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE,
-    vet_id INT FOREIGN KEY REFERENCES Vets(id) ON DELETE CASCADE,
     message TEXT NOT NULL,
    
 );
@@ -114,7 +95,7 @@ CREATE TABLE Subscription_Packages (
 
 CREATE TABLE User_Subscriptions (
     id INT PRIMARY KEY IDENTITY(1,1),
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE,
+    owner_id INT FOREIGN KEY REFERENCES Pet_Owners(id) ON DELETE CASCADE,
     package_id INT FOREIGN KEY REFERENCES Subscription_Packages(id) ON DELETE CASCADE,
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
@@ -126,20 +107,20 @@ CREATE TABLE Blog (
     title NVARCHAR(255) NOT NULL,
     content TEXT NOT NULL,
     image NVARCHAR(255),
-    
+    likes int,
 );
 
 CREATE TABLE Blog_Comments (
     id INT PRIMARY KEY IDENTITY,
     blog_id INT FOREIGN KEY REFERENCES Blog(id) ON DELETE CASCADE,
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE,
+    owner_id INT FOREIGN KEY REFERENCES Pet_Owners(id) ON DELETE CASCADE,
     comment TEXT NOT NULL,
     
 );
 
 CREATE TABLE Reviews (
     id INT PRIMARY KEY IDENTITY,
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE,
+    owner_id INT FOREIGN KEY REFERENCES Pet_Owners(id) ON DELETE CASCADE,
     clinic_id INT FOREIGN KEY REFERENCES Clinics(id) ON DELETE CASCADE,
     rating INT CHECK (rating BETWEEN 1 AND 5),
     comment TEXT,
@@ -149,7 +130,7 @@ CREATE TABLE Reviews (
 CREATE TABLE Payments (
     id INT PRIMARY KEY IDENTITY(1,1),
     appointment_id INT FOREIGN KEY REFERENCES Appointments(id) ON DELETE CASCADE,
-    owner_id INT FOREIGN KEY REFERENCES Owners(id) ON DELETE CASCADE,
+    owner_id INT FOREIGN KEY REFERENCES Pet_Owners(id) ON DELETE CASCADE,
     amount DECIMAL(10,2),
     payment_method NVARCHAR(255),
     payment_status NVARCHAR(255)

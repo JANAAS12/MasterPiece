@@ -1,0 +1,67 @@
+﻿@model List<ServiceType>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ClinicDetails.css" />
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-color: #e6e3fb;">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <h2>Available Services</h2>
+    </div>
+</div>
+<!-- End Breadcrumbs -->
+
+
+
+
+
+<!-- القوائم المنسدلة على اليمين -->
+<div class="d-flex gap-3 flex-wrap" style="margin-top: 3%; margin-left: 16%;margin-bottom: 3%;">
+
+
+    <!-- فلترة حسب الموقع -->
+    <div class="dropdown">
+        <button class="btn dropdown-toggle properties-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false" style=" background-color:#CDC1FF;">
+            Filter by PetType
+        </button>
+        <ul class="dropdown-menu " id="locationFilter">
+            <li><a class="dropdown-item" href="#" data-location="all">Show All</a></li>
+            <li><a class="dropdown-item" href="#" data-location="Cats">Cats</a></li>
+            <li><a class="dropdown-item" href="#" data-location="Dogs">Dogs</a></li>
+            <li><a class="dropdown-item" href="#" data-location="Rbbits">Rabbits</a></li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <div class="grid related-products">
+        <div class="column-xs-12">
+        </div>
+
+        @foreach (var service in Model)
+        {
+            <div class="column-xs-12 column-md-4 servimg">
+                <img src="~/Img/@service.Img" alt="@service.Name"><br />
+                <h5>@service.Name</h5>
+                <br />
+                 <p>PetType : @service.PetType</p>
+            
+                <p>Price: @service.Price JD</p>
+                <a asp-controller="Clinics" asp-action="Appointment" asp-route-serviceId="@service.Id" class="btn btn-primary"> 
+                    Book Now 
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+

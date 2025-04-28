@@ -1,0 +1,87 @@
+﻿@model MasterPiece.Models.Clinic
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Add New Clinic";
+}
+@section Styles {
+    <script>
+        function previewImage(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('previewImage').src = e.target.result;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+
+}
+
+<div class="col-md-10 mx-auto">
+    <form asp-action="AddClinic" method="post" enctype="multipart/form-data">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Add New Clinic</h5>
+            </div>
+            <div class="card-body">
+                <div class="media align-items-center mb-3">
+                    <img src="~/images/placeholder.png" id="previewImage" class="d-block ui-w-80 rounded-circle" />
+                    <div class="media-body ml-4">
+                        <label class="btn btn-outline-primary">
+                            Upload Main Image
+                            <input type="file" asp-for="ImageFile" class="form-control" accept="image/*" onchange="previewImage(this)" />
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Clinic Name</label>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Location</label>
+                    <input asp-for="Location" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Working Hours</label>
+                    <input asp-for="WorkingHours" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Category</label>
+                    <input asp-for="Category" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                </div>
+
+                <hr />
+
+                <h6>Extra Images</h6>
+                <div class="form-group">
+                    <label>Image 1</label>
+                    <input type="file" asp-for="ImageFile1" class="form-control" accept="image/*" />
+                </div>
+                <div class="form-group">
+                    <label>Image 2</label>
+                    <input type="file" asp-for="ImageFile2" class="form-control" accept="image/*" />
+                </div>
+                <div class="form-group">
+                    <label>Image 3</label>
+                    <input type="file" asp-for="ImageFile3" class="form-control" accept="image/*" />
+                </div>
+
+                <div class="text-right">
+                    <button type="submit" class="btn btn-success">Add Clinic</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

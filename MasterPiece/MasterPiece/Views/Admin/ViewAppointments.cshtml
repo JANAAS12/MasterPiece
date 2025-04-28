@@ -1,0 +1,135 @@
+﻿@model IEnumerable<MasterPiece.Models.Appointment>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Appointments Management";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h2>Appointments Management</h2>
+        </div>
+    </div>
+
+    <!-- Filters Section -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5>Filters</h5>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row">
+                <div class="col-md-3">
+                    <label class="form-label">Status</label>
+                    <select name="status" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Statuses</option>
+                        @foreach (var status in ViewBag.Statuses)
+                        {
+                            <option value="@status" selected="@(Context.Request.Query["status"] == status)">@status</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Clinic</label>
+                    <select name="clinicName" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Clinics</option>
+                        @foreach (var clinic in ViewBag.Clinics)
+                        {
+                            <option value="@clinic" selected="@(Context.Request.Query["clinicName"] == clinic)">@clinic</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Date Range</label>
+                    <select name="dateFilter" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Dates</option>
+                        <option value="today" selected="@(Context.Request.Query["dateFilter"] == "today")">Today</option>
+                        <option value="upcoming" selected="@(Context.Request.Query["dateFilter"] == "upcoming")">Upcoming</option>
+                        <option value="past" selected="@(Context.Request.Query["dateFilter"] == "past")">Past</option>
+                    </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <a asp-action="ViewAppointments" class="btn btn-outline-secondary">Reset Filters</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Appointments Table -->
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>Date & Time</th>
+                            <th>Owner</th>
+                            <th>Pet Type</th>
+                            <th>Clinic</th>
+                            <th>Service</th>
+                            <th>Status</th>
+                         
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var appointment in Model)
+                        {
+                            <tr>
+                                <td>@appointment.Id</td>
+                                <td>
+                                    <strong>@appointment.AppointmentDate.ToString("dd MMM yyyy")</strong><br>
+                                    <small>@appointment.AppointmentTime.ToString("hh:mm tt")</small>
+                                </td>
+                                <td>
+                                    @appointment.OwnerName<br>
+                                    <small class="text-muted">@appointment.OwnerPhone</small>
+                                </td>
+                                <td>@appointment.PetType</td>
+                                <td>@appointment.Clinic?.Name</td>
+                                <td>@appointment.ServiceName</td>
+                                <td>
+                                    <span class="badge @GetStatusBadgeClass(appointment.Status)">
+                                        @appointment.Status
+                                    </span>
+                                </td>
+                               
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmCancel(appointmentId) {
+            if (confirm('Are you sure you want to cancel this appointment?')) {
+                window.location.href = '@Url.Action("CancelAppointment")' + '?id=' + appointmentId;
+            }
+        }
+    </script>
+}
+
+@functions {
+    public string GetStatusBadgeClass(string status)
+    {
+        switch (status?.ToLower())
+        {
+            case "pending":
+                return "bg-warning text-dark";
+            case "confirmed":
+                return "bg-success text-white";
+            case "completed":
+                return "bg-primary text-white";
+            case "cancelled":
+                return "bg-danger text-white";
+            default:
+                return "bg-secondary text-white";
+        }
+    }
+}

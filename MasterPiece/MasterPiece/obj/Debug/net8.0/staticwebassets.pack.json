@@ -1,0 +1,1729 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MasterPiece.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MasterPiece.z2e06155bz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Animals and pet lovers_.jpg",
+      "PackagePath": "staticwebassets\\Img\\Animals and pet lovers_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\AppointmentPhoto.png",
+      "PackagePath": "staticwebassets\\Img\\AppointmentPhoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\BackgroungHome.jpg",
+      "PackagePath": "staticwebassets\\Img\\BackgroungHome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\CatProfile.jpg",
+      "PackagePath": "staticwebassets\\Img\\CatProfile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Customer1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Customer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Customer3.jpg",
+      "PackagePath": "staticwebassets\\Img\\Customer3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Doctor.jpg",
+      "PackagePath": "staticwebassets\\Img\\Doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Free Photo _ Veterinarian check-ing puppy's health.jpg",
+      "PackagePath": "staticwebassets\\Img\\Free Photo _ Veterinarian check-ing puppy's health.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\HomeTest1.jpg",
+      "PackagePath": "staticwebassets\\Img\\HomeTest1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Paw.jpg",
+      "PackagePath": "staticwebassets\\Img\\Paw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PawLogin.png",
+      "PackagePath": "staticwebassets\\Img\\PawLogin.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetClinic.jpg",
+      "PackagePath": "staticwebassets\\Img\\PetClinic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetCo.jpg",
+      "PackagePath": "staticwebassets\\Img\\PetCo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetNetLogo.png",
+      "PackagePath": "staticwebassets\\Img\\PetNetLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetVet.jpg",
+      "PackagePath": "staticwebassets\\Img\\PetVet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Treat.jpg",
+      "PackagePath": "staticwebassets\\Img\\Treat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Trust.jpg",
+      "PackagePath": "staticwebassets\\Img\\Trust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\VetPlus.jpg",
+      "PackagePath": "staticwebassets\\Img\\VetPlus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\Veterinary physician with assistant.jpg",
+      "PackagePath": "staticwebassets\\Img\\Veterinary physician with assistant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\_Care in Every Gaze_ A Veterinarian's Love for Animals \uD83D\uDC3E\uD83E\uDE7A_.jpg",
+      "PackagePath": "staticwebassets\\Img\\_Care in Every Gaze_ A Veterinarian's Love for Animals \uD83D\uDC3E\uD83E\uDE7A_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\background.jpg",
+      "PackagePath": "staticwebassets\\Img\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-1 (2).jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-4 (2).jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-4 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\caro2.jpg",
+      "PackagePath": "staticwebassets\\Img\\caro2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\caro3.jpg",
+      "PackagePath": "staticwebassets\\Img\\caro3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\cat_service.jpg",
+      "PackagePath": "staticwebassets\\Img\\cat_service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\checkUp.png",
+      "PackagePath": "staticwebassets\\Img\\checkUp.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-5 copy.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-5 copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\Img\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\dental.png",
+      "PackagePath": "staticwebassets\\Img\\dental.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\grooming.png",
+      "PackagePath": "staticwebassets\\Img\\grooming.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\healthy.jpg",
+      "PackagePath": "staticwebassets\\Img\\healthy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\image.png",
+      "PackagePath": "staticwebassets\\Img\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\petmed.jpg",
+      "PackagePath": "staticwebassets\\Img\\petmed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\rabbit_service.jpg",
+      "PackagePath": "staticwebassets\\Img\\rabbit_service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\sergery.png",
+      "PackagePath": "staticwebassets\\Img\\sergery.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\test1.jpg",
+      "PackagePath": "staticwebassets\\Img\\test1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\treatclinic1.jpg",
+      "PackagePath": "staticwebassets\\Img\\treatclinic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\treatclinic2.jpg",
+      "PackagePath": "staticwebassets\\Img\\treatclinic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\treatclinic3.jpg",
+      "PackagePath": "staticwebassets\\Img\\treatclinic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\vaccination.png",
+      "PackagePath": "staticwebassets\\Img\\vaccination.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\Img\\veterinary medicine.jpg",
+      "PackagePath": "staticwebassets\\Img\\veterinary medicine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\assets\\js\\common-pages.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo-12.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\assets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Appointment.css",
+      "PackagePath": "staticwebassets\\css\\Appointment.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Blog.css",
+      "PackagePath": "staticwebassets\\css\\Blog.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\BlogDetails.css",
+      "PackagePath": "staticwebassets\\css\\BlogDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\ClinicDetails.css",
+      "PackagePath": "staticwebassets\\css\\ClinicDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Clinics.css",
+      "PackagePath": "staticwebassets\\css\\Clinics.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\ContactUs.css",
+      "PackagePath": "staticwebassets\\css\\ContactUs.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\Nav_Footer.css",
+      "PackagePath": "staticwebassets\\css\\Nav_Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\UserProfile.css",
+      "PackagePath": "staticwebassets\\css\\UserProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\admin.css",
+      "PackagePath": "staticwebassets\\css\\assets\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\assets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\assets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\css\\assets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\css\\assets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\assets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\pattern2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\css\\assets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\classie.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\common-pages.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\demo-12.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\js\\script.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\css\\assets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\125d11c6-5ca3-4b6c-b3d8-13b45f061de1.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\125d11c6-5ca3-4b6c-b3d8-13b45f061de1.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\4f615549-7c94-4332-860d-45d3e19170e6.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\4f615549-7c94-4332-860d-45d3e19170e6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\5c072f39-2c06-4bd8-8ca3-6fd21c06711f.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\5c072f39-2c06-4bd8-8ca3-6fd21c06711f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\73d7fac2-869c-4a59-ac5f-158afe611994.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\73d7fac2-869c-4a59-ac5f-158afe611994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\84c53144-7d65-4a36-99cc-bc9f3fbb5ed0.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\84c53144-7d65-4a36-99cc-bc9f3fbb5ed0.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\963113cc-7df4-4ede-880b-5a7bc2a1fc0b.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\963113cc-7df4-4ede-880b-5a7bc2a1fc0b.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\9ff6b722-0b50-4d7d-aff4-52bb957f5695.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\9ff6b722-0b50-4d7d-aff4-52bb957f5695.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\Free Photo _ Veterinarian check-ing puppy's health.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\Free Photo _ Veterinarian check-ing puppy's health.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\PetCo.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\PetCo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\b7fc64a0-30e5-47a0-b3e2-952993b3f0eb.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\b7fc64a0-30e5-47a0-b3e2-952993b3f0eb.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\cat_service.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\cat_service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\dog_service.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\dog_service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\image.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\sergery.png",
+      "PackagePath": "staticwebassets\\images\\clinics\\sergery.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\treatclinic1.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\treatclinic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\treatclinic2.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\treatclinic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\images\\clinics\\treatclinic3.jpg",
+      "PackagePath": "staticwebassets\\images\\clinics\\treatclinic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\js\\filter.js",
+      "PackagePath": "staticwebassets\\js\\filter.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\source\\repos\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MasterPiece.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MasterPiece.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MasterPiece.props",
+      "PackagePath": "build\\MasterPiece.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MasterPiece.props",
+      "PackagePath": "buildMultiTargeting\\MasterPiece.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MasterPiece.props",
+      "PackagePath": "buildTransitive\\MasterPiece.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Appointment>
+
+@{
+    Layout = "~/Views/Shared/_ClinicLayout .cshtml";
+}
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Appointments</h2>
+
+    <!-- فلتر الحالة -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <form method="get" class="form-inline">
+                <div class="form-group">
+                    <label for="status" class="mr-2">Filter by Status:</label>
+                    <select name="status" class="form-control" onchange="this.form.submit()">
+                        <option value="">All Statuses</option>
+                        @foreach (var status in ViewBag.Statuses)
+                        {
+                            <option value="@status" selected="@(ViewBag.SelectedStatus == status)">@status</option>
+                        }
+                    </select>
+                </div>
+                @if (!string.IsNullOrEmpty(ViewBag.SelectedStatus))
+                {
+                    <a href="@Url.Action("ViewAppointments")" class="btn btn-outline-secondary ml-2">Clear Filter</a>
+                }
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Owner Name</th>
+                <th>Phone</th>
+                <th>Pet Type</th>
+                <th>Service</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var appointment in Model)
+            {
+                <tr>
+                    <td>@appointment.OwnerName</td>
+                    <td>@appointment.OwnerPhone</td>
+                    <td>@appointment.PetType</td>
+                    <td>@appointment.ServiceName</td>
+                    <td>@appointment.AppointmentDate.ToShortDateString()</td>
+                    <td>@appointment.AppointmentTime.ToShortTimeString()</td>
+                    <td>
+                        <span class="badge @GetStatusBadgeClass(appointment.Status)">
+                            @appointment.Status
+                        </span>
+                    </td>
+                    <td>
+                        @if (appointment.Status == "Pending")
+                        {
+                            <form asp-controller="ClinicDashboard" asp-action="UpdateAppointmentStatus" method="post" class="d-inline">
+                                <input type="hidden" name="appointmentId" value="@appointment.Id" />
+                                <input type="hidden" name="status" value="Confirmed" />
+                                <button type="submit" class="btn btn-success btn-sm">Confirm</button>
+                            </form>
+
+                            <form asp-controller="ClinicDashboard" asp-action="UpdateAppointmentStatus" method="post" class="d-inline">
+                                <input type="hidden" name="appointmentId" value="@appointment.Id" />
+                                <input type="hidden" name="status" value="Cancelled" />
+                                <button type="submit" class="btn btn-danger btn-sm">Cancel</button>
+                            </form>
+                        }
+                        else if (appointment.Status == "Confirmed" )
+                        {
+                            <form asp-controller="ClinicDashboard" asp-action="UpdateAppointmentStatus" method="post" class="d-inline">
+                                <input type="hidden" name="appointmentId" value="@appointment.Id" />
+                                <input type="hidden" name="status" value="Completed" />
+                                <button type="submit" class="btn btn-primary btn-sm">Mark Completed</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@functions {
+    public string GetStatusBadgeClass(string status)
+    {
+        switch (status?.ToLower())
+        {
+            case "pending":
+                return "bg-warning text-dark";
+            case "confirmed":
+                return "bg-success text-white";
+            case "completed":
+                return "bg-primary text-white";
+            case "cancelled":
+                return "bg-danger text-white";
+            default:
+                return "bg-secondary text-white";
+        }
+    }
+}

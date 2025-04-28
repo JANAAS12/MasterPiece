@@ -1,0 +1,106 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* اللوجو */
+.logo {
+    width: 20%;
+    height: 5%;
+    margin-left: 20px;
+    padding: 2px;
+    margin-top: -14px;
+}
+
+.button {
+    border-radius: 30px;
+    border: 1px solid #CDC1FF;
+    background: #CDC1FF !important;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+    .button:hover {
+        background-color: #7766E3;
+    }
+
+    .button:active {
+        transform: scale(.95);
+    }
+
+/*** Footer ***/
+
+.footer {
+    background-color: #FBF9FF;
+}
+
+    .footer .btn.btn-social {
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light);
+        border: 1px solid #FFFFFF;
+        transition: .3s;
+    }
+
+        .footer .btn.btn-social:hover {
+            color: #A294F9;
+        }
+
+    .footer .btn.btn-link {
+        display: block;
+        margin-bottom: 5px;
+        padding: 0;
+        text-align: left;
+        color: #000000;
+        font-size: 15px;
+        font-weight: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .3s;
+    }
+
+        .footer .btn.btn-link::before {
+            text-decoration: none;
+            position: relative;
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-right: 10px;
+            color: #000000;
+        }
+
+        .footer .btn.btn-link:hover {
+            color: white;
+            letter-spacing: 1px;
+            box-shadow: none;
+        }
+
+    .footer .copyright {
+        padding: 25px 0;
+        font-size: 15px;
+        border-top: 1px solid rgba(256, 256, 256, .1);
+    }
+
+        .footer .copyright a {
+            color: var(--light);
+        }
+
+            .footer .copyright a:hover {
+                color: #A294F9;
+            }
+
+
+.footerlogo {
+    width: 40%;
+    margin-bottom: 20px;
+}

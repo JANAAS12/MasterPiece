@@ -1,0 +1,94 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/UserProfile.css" />
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+<div class="container light-style flex-grow-1 container-p-y">
+    <h4 class="font-weight-bold py-3 mb-4">
+    </h4>
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0" style="background-color:#F5EFFF;">
+
+                <div class="list-group list-group-flush account-settings-links" style="background-color:#F5EFFF;">
+                    <h6 class="font-weight-bold py-3 mb-4">
+                    </h6>
+                    <a class="list-group-item list-group-item-action active" data-toggle="list"
+                       href="#account-general">User Profile</a>
+                  
+                    <a class="list-group-item list-group-item-action" data-toggle="list"
+                       href="#account-connections">Appointment</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list"
+                       href="#account-notifications">Notifications</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <div class="card-body media align-items-center position-relative">
+                            <img src="/Img/@Context.Session.GetString("ProfileImage")" alt="Profile Picture"
+                                 class="d-block ui-w-80 rounded-circle">
+
+                          
+                        </div>
+                        <hr class="border-light m-0">
+                        <form asp-action="EditProfile" method="post" >
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Username</label>
+                                        <input type="text" class="form-control mb-1" value="@Context.Session.GetString("UserName")" readonly>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">E-mail</label>
+                                        <input type="text" class="form-control mb-1" value="@Context.Session.GetString("UserEmail")" readonly>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" value="@Context.Session.GetString("UserPhone")" readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="text-right mt-3">
+                                <a asp-action="POEditProfile" type="submit" class="btn " style="background-color: #CDC1FF;">Edit Profile</a>
+                                <a asp-action="ResetPassword" type="submit" class="btn " style="background-color: #CDC1FF;">Reset Password</a>
+                              
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

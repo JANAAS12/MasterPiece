@@ -1,0 +1,841 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\shared\\_cliniclayout .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\shared\\_cliniclayout .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\user\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\clinicservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\clinicservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\clinicdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\clinicdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\viewclinics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\viewclinics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\controllers\\clinicdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\clinicdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\addservicetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\addservicetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\editservicetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\editservicetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\viewservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\viewservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinicdashboard\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinicdashboard\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\clinicdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\clinicdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\clinicdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\clinicdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\admin\\addclinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\admin\\addclinic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\assets\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\assets\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\appointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\user\\poeditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\poeditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\paymentconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\paymentconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\clinics\\confirmappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\clinics\\confirmappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\viewmodel\\servicetypeappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\viewmodel\\servicetypeappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\css\\contactus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\css\\contactus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\wwwroot\\img\\petnetlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\wwwroot\\img\\petnetlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|c:\\users\\orange\\desktop\\masterpiece2\\masterpiece\\masterpiece\\controllers\\vetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBFCDCE-CEBD-41D0-A4CB-4FAE440E3F78}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\vetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T05:57:51.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAJcWAAAAAAAAAAAwwKMWAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T14:27:30.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClinicsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\ClinicsController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\ClinicsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\ClinicsController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\ClinicsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:43:09.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ClinicLayout .cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_ClinicLayout .cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Shared\\_ClinicLayout .cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_ClinicLayout .cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Shared\\_ClinicLayout .cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T21:59:03.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClinicServices.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ClinicServices.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\ClinicServices.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ClinicServices.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\ClinicServices.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T18:44:32.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\Dashboard.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:05:05.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\LoginUser.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\LoginUser.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\LoginUser.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\LoginUser.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T19:43:06.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T12:24:47.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\ViewUsers.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\ViewUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T11:59:51.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewClinics.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewClinics.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\ViewClinics.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewClinics.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\ViewClinics.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T11:59:19.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClinicDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\ClinicDashboardController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\ClinicDashboardController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\ClinicDashboardController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\ClinicDashboardController.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAuwC0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:03:24.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClinicDetails.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\ClinicDetails.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\ClinicDetails.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\ClinicDetails.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\ClinicDetails.css",
+              "ViewState": "AgIAACgCAAAAAAAAAAAAAEICAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T13:12:11.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAmwNAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:17:58.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAADgv3EAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:03:51.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Home\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Home\\HomePage.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T13:20:32.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T21:19:51.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViewAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\ViewAppointments.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\ViewAppointments.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\ViewAppointments.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\ViewAppointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:26:36.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddService.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\AddService.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\AddService.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\AddService.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\AddService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:50:51.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditService.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\EditService.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\EditService.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\EditService.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\EditService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T15:16:04.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditServiceType.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\EditServiceType.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\EditServiceType.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\EditServiceType.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\EditServiceType.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T15:17:07.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddServiceType.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\AddServiceType.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\AddServiceType.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\AddServiceType.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\AddServiceType.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T15:16:35.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ViewService.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\ViewService.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\ClinicDashboard\\ViewService.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\ClinicDashboard\\ViewService.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\ClinicDashboard\\ViewService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:51:18.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClinicDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ClinicDetails.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\ClinicDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ClinicDetails.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\ClinicDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T18:44:28.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClinicDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ClinicDetails.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\ClinicDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ClinicDetails.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\ClinicDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T21:30:35.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Appointment.cs",
+              "RelativeToolTip": "MasterPiece\\Models\\Appointment.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T01:22:29.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ViewAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewAppointments.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\ViewAppointments.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\ViewAppointments.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\ViewAppointments.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T11:59:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddClinic.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\AddClinic.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Admin\\AddClinic.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Admin\\AddClinic.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Admin\\AddClinic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T11:58:34.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T21:12:39.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-25T21:13:19.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\admin.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\assets\\admin.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\assets\\admin.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\assets\\admin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T21:11:41.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Appointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\Appointment.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\Appointment.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\Appointment.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\Appointment.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAFsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T18:43:20.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Program.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Program.cs",
+              "RelativeToolTip": "MasterPiece\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:56:43.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "POEditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\POEditProfile.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\POEditProfile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\POEditProfile.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\POEditProfile.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:20:12.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\ServiceType.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Models\\ServiceType.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\ServiceType.cs",
+              "RelativeToolTip": "MasterPiece\\Models\\ServiceType.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T01:36:09.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Clinic.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Models\\Clinic.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Clinic.cs",
+              "RelativeToolTip": "MasterPiece\\Models\\Clinic.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:42:48.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "MasterPiece\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:58:07.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Models\\Admin.cs",
+              "RelativeToolTip": "MasterPiece\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:37:22.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PaymentConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\PaymentConfirmation.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\PaymentConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\PaymentConfirmation.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\PaymentConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T10:56:18.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\Confirmation.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\Confirmation.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\Confirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T11:22:48.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\User\\SignUp.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T20:21:14.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-15T23:00:51.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PaymentPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\PaymentPage.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\PaymentPage.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\PaymentPage.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\PaymentPage.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T11:09:18.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\Home.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-23T13:17:12.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\ViewModel\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\ViewModel\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\ViewModel\\PaymentViewModel.cs",
+              "RelativeToolTip": "MasterPiece\\ViewModel\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:43:30.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConfirmAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ConfirmAppointment.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Clinics\\ConfirmAppointment.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Clinics\\ConfirmAppointment.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Clinics\\ConfirmAppointment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T12:38:16.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ServiceTypeAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\ViewModel\\ServiceTypeAppointment.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\ViewModel\\ServiceTypeAppointment.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\ViewModel\\ServiceTypeAppointment.cs",
+              "RelativeToolTip": "MasterPiece\\ViewModel\\ServiceTypeAppointment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T22:35:38.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ContactUs.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\ContactUs.css",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\css\\ContactUs.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\css\\ContactUs.css",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\css\\ContactUs.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-15T21:34:08.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\appsettings.json",
+              "RelativeDocumentMoniker": "MasterPiece\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\appsettings.json",
+              "RelativeToolTip": "MasterPiece\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T20:09:44.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PetNetLogo.png - PNG [226x246, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetNetLogo.png",
+              "RelativeDocumentMoniker": "MasterPiece\\wwwroot\\Img\\PetNetLogo.png",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\wwwroot\\Img\\PetNetLogo.png - PNG [226x246, 32 bit, PNG]",
+              "RelativeToolTip": "MasterPiece\\wwwroot\\Img\\PetNetLogo.png - PNG [226x246, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-15T18:44:12.685Z",
+              "EditorCaption": " - PNG [226x246, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T21:32:53.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "VetController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\VetController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\VetController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MasterPiece2\\MasterPiece\\MasterPiece\\Controllers\\VetController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\VetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:19:08.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

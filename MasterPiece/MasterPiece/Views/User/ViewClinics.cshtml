@@ -1,0 +1,68 @@
+﻿@model List<Clinic>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Clinics.css" />
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+
+<div class="page-heading header-text" style="background-color: #e6e3fb;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Clinics</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Search">
+    <i class="fa-solid fa-magnifying-glass" style="margin-left: 10px;"></i>
+    <p>Search</p>
+</div>
+
+<div class="section properties">
+    <div class="container">
+        <ul class="properties-filter">
+            <li><a class="is_active" href="#!" data-filter="*">Show All</a></li>
+            <li><a href="#!" data-filter=".adv">Rating</a></li>
+            <li><a href="#!" data-filter=".str">Location</a></li>
+        </ul>
+
+        <div class="row properties-box">
+            @foreach (var clinic in Model)
+            {
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items">
+                    <div class="item">
+                        <a href="#"><img src="@clinic.Image" alt="@clinic.Name"></a>
+                        @* <span class="category">@clinic.Category</span> *@
+                        <h6>
+                            <div>
+                                @for (int i = 0; i < clinic.Rating; i++)
+                                {
+                                    <i class="fa-solid fa-star"></i>
+                                }
+                            </div>
+                        </h6>
+                        <h4><a href="#">@clinic.Name</a></h4>
+                        <div style="display: flex;">
+                            <i class="fa-solid fa-location-dot" style="margin-top: 5px;"></i>
+                            <p style="margin-left: 5px;">@clinic.Location</p>
+                        </div>
+                        <div style="display: flex;">
+                            <i class="fa-solid fa-clock" style="margin-top: 5px;"></i>
+                            <p style="margin-left: 5px;">@clinic.WorkingHours</p>
+                        </div>
+                        <hr>
+                        <div class="main-button">
+                            <a href="#">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

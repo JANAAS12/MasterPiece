@@ -1,0 +1,75 @@
+﻿@model MasterPiece.ViewModel.PaymentViewModel
+
+@{
+    ViewData["Title"] = "Payment Page";
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var successMessage = '@TempData["SuccessMessage"]';
+            if (successMessage) {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Done!',
+                    text: successMessage,
+                    confirmButtonColor: '#A294F9'
+                });
+            }
+        });
+    </script>
+
+}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Payment Details</h2>
+
+    <div class="row">
+        <!-- تفاصيل الحجز -->
+        <div class="col-md-6">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Appointment Information</h4>
+                <p><strong>Clinic:</strong> @Model.ClinicName</p>
+                <p><strong>Date:</strong> @Model.AppointmentDate</p>
+                <p><strong>Base Price:</strong> @(Model.Amount / 1.2m) JD</p>
+                <p><strong>Service Fee (20%):</strong> @(Model.Amount - (Model.Amount / 1.2m)) JD</p>
+                <p><strong>Total Amount:</strong> @Model.Amount JD </p>
+            </div>
+        </div>
+
+        <!-- معلومات الدفع -->
+        <div class="col-md-6">
+            <form asp-action="SubmitPayment" method="post" class="card p-3 shadow-sm">
+                <h4 class="mb-3">Credit Card Information</h4>
+
+                <input type="hidden" asp-for="AppointmentId" />
+                <input type="hidden" asp-for="OwnerId" />
+                <input type="hidden" asp-for="Amount" />
+                <input type="hidden" asp-for="PaymentMethod" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="CardHolderName">Cardholder Name</label>
+                    <input asp-for="CardHolderName" class="form-control" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="CardNumber">Card Number</label>
+                    <input asp-for="CardNumber" class="form-control" required maxlength="16" />
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="ExpiryDate">Expiry Date (MM/YY)</label>
+                        <input asp-for="ExpiryDate" class="form-control" required />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="CVV">CVV</label>
+                        <input asp-for="CVV" class="form-control" required maxlength="4" />
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+            </form>
+        </div>
+    </div>
+</div>

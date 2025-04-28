@@ -1,0 +1,72 @@
+﻿@model IEnumerable<MasterPiece.Models.Clinic>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "View Clinics";
+}
+
+<div class="container">
+    <h2 class="mb-4">All Clinics</h2>
+
+    <div class="row">
+        @foreach (var clinic in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(clinic.Image))
+                    {
+                        <img src="~/Img/@clinic.Image" class="card-img-top" alt="@clinic.Name" style="height: 200px; object-fit: cover;">
+                    }
+                    else
+                    {
+                        <img src="~/Img/placeholder.png" class="card-img-top" alt="No image" style="height: 200px; object-fit: cover;">
+                    }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@clinic.Name</h5>
+                        <p class="card-text text-muted">
+                            <i class="fas fa-map-marker-alt"></i> @clinic.Location
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <i class="fas fa-clock"></i> @clinic.WorkingHours
+                            </small>
+                        </p>
+                        <p class="card-text">@clinic.Description</p>
+                        <div class="badge bg-primary">@clinic.Category</div>
+                    </div>
+                    <div class="card-footer bg-white">
+                        @* <a asp-action="ClinicDetails" asp-route-id="@clinic.Id" class="btn btn-primary btn-sm">View Details</a> *@
+                        <a asp-action="EditClinic" asp-route-id="@clinic.Id" class="btn btn-secondary btn-sm">Edit</a>
+                    </div>
+                    <form asp-action="DeleteClinic" asp-route-id="@clinic.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this clinic?');">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        .card {
+            transition: transform 0.3s;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            }
+
+        .card-img-top {
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+    </style>
+}

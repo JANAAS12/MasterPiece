@@ -1,0 +1,101 @@
+﻿@model MasterPiece.Models.User
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/UserProfile.css" />
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+<div class="container light-style flex-grow-1 container-p-y">
+    <h4 class="font-weight-bold py-3 mb-4">
+    </h4>
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0" style="background-color:#F5EFFF;">
+
+                @* <div class="list-group list-group-flush account-settings-links" style="background-color:#F5EFFF;"> *@
+                @*     <h6 class="font-weight-bold py-3 mb-4"> *@
+                @*     </h6> *@
+                @*     <a class="list-group-item list-group-item-action active" data-toggle="list" *@
+                @*        href="#account-general">User Profile</a> *@
+
+                @*     <a class="list-group-item list-group-item-action" data-toggle="list" *@
+                @*        href="#account-connections">Appointment</a> *@
+                @*     <a class="list-group-item list-group-item-action" data-toggle="list" *@
+                @*        href="#account-notifications">Notifications</a> *@
+                @* </div> *@
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+                        <div class="card-body media align-items-center position-relative">
+                            <img src="/Img/@Model.Image" alt="Profile Picture"
+                                 class="d-block ui-w-80 rounded-circle">
+
+
+                        </div>
+                        <hr class="border-light m-0">
+                        <form asp-action="POEditProfileHandle" method="post" enctype="multipart/form-data">
+                        <div class="card-body">
+                                <div class="form-group">
+                                    <label for="ProfileImage">Change Profile Image:</label>
+                                    <input type="file" class="form-control" name="profilePicture" accept="image/*" />
+                                    <span asp-validation-for="Image" class="text-danger"></span>
+                                </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Username</label>
+                                        <input type="text" class="form-control mb-1" name="Name" value="@Model.Name" required>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">E-mail</label>
+                                        <input type="text" class="form-control mb-1" name="Email" value="@Model.Email" required readonly>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" name="Phone" value="@Model.Phone" >
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="text-right mt-3">
+                                
+                                <button class="btn " style="background-color: #CDC1FF;" type="submit">Save Change</button>
+
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

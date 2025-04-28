@@ -1,0 +1,76 @@
+﻿@model MasterPiece.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/Login.css" />
+   
+
+</head>
+<body>
+    <div class="container" id="container">
+        
+        <div class="form-container sign-in-container">
+            <form asp-action="LoginUser" method="post">
+
+                <img src="~/Img/PetNetLogo.png" alt="Logo" class="img-fluid logo" class="logo">
+                <h1>LogIn</h1>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger" style="color:red"></div>
+                <input type="email" placeholder="Email" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger" style="color:red"></span>
+                <input type="password" placeholder="Password" asp-for="Password" />
+                <span asp-validation-for="Password" class="text-danger" style="color:red"></span>
+
+               
+                <a class="small text-muted" href="#!">Forgot password?</a>
+                <button type="submit">LogIn</button>
+
+               
+
+                <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                    Don't have an account? <a asp-controller="User" asp-action="SignUp"
+                                              style="color: #393f81; font-weight:bold ;">Register here</a>
+                </p>
+                @if (ViewData["ErrorMessage"] != null)
+                {
+                    <p class="text-danger">@ViewData["ErrorMessage"]</p>
+                }
+            </form>
+        </div>
+		<div class="overlay-container">
+			
+            <div class="overlay">
+                <img src="~/Img/test1.jpg" class="background-img" >
+                <div class="overlay-panel overlay-right text-content" style="margin-bottom:90%">
+                    <h1>Welcome Back </h1>
+                    <p>Log in to continue your journey of exceptional pet care. We're glad to see you again!</p>
+              
+                    @* <img src="/Img/test1.jpg" > *@
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <b style="color:#393f81;margin-top:2%;">	Follow Us On </b>
+        <div class="icons"> 
+       
+        <a href="https://www.instagram.com/vaibhavkhulbe143/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://twitter.com/vaibhav_khulbe" target="_blank" class="social"><i class="fab fa-twitter-square"></i></a>
+       
+       </div>
+
+</body>
+</html>

@@ -1,0 +1,583 @@
+﻿
+* {
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Pontano Sans', sans-serif; */
+   
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 1.75rem 0 0;
+}
+
+a {
+  color: #888;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover, a.active {
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  color: #000000;
+  font-weight: normal;
+  margin: 1.75rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+}
+
+h2 {
+  font-size: 2.125rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.0rem;
+    margin: 1rem 0 0.5rem 0;
+}
+h5{
+    color: #000000;
+    font-weight: bold;
+    font-size: larger;
+    color: #A294F9;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.logo{
+
+  width: 20%;
+ height: 5%;
+ margin-left: 20px;
+ padding:2px;
+ margin-top: -14px;
+ 
+}
+nav {
+  display: block;
+}
+
+nav li {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.flex-nav ul {
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  display: none;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex-nav ul.active {
+  display: flex;
+}
+
+.flex-nav ul li {
+  margin: 0.5rem 0;
+}
+
+.toggle-nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin: 1rem 0;
+}
+
+.toggle-nav i {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-left: 0.5rem;
+}
+
+#highlight {
+  color: #333;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.price {
+  margin: 0;
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  list-style: none;
+}
+
+.breadcrumb-list li {
+  font-size: 0.85rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.breadcrumb-item.active {
+  color: #333;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '/';
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: #d5d5d5;
+}
+
+.description {
+  border-top: 0.0625rem solid #e3dddd;
+  margin: 2rem 0;
+  padding: 1rem 0 0 0;
+}
+
+.add-to-cart {
+  position: relative;
+  display: inline-block;
+  background: #CDC1FF;
+  color: #fff;
+  border: none;
+  padding: 1.25rem 2.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  letter-spacing: 0.0625rem;
+}
+.add-to-cart:hover {
+    background: #A294F9; /* Slightly lighter on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+
+
+.add-to-cart::before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #565657;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.3s ease-out;
+}
+
+.container {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 75rem;
+  width: 100%;
+}
+
+.grid > [class*="column-"] {
+  padding: 1rem;
+}
+
+.grid.menu, .grid.product {
+  border-bottom: 0.0625rem solid #e3dddd;
+}
+
+.grid.menu > [class*="column-"] {
+  padding: 0.5rem 1rem;
+}
+
+.grid.product {
+  padding: 0 0 1.5rem 0;
+}
+
+.grid.second-nav > [class*="column-"] {
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.product-image {
+  display: none;
+}
+
+.image-list li {
+  margin: 0;
+}
+
+.related-products {
+    display: flex;
+    /* flex-wrap: nowrap; يمنع الكاردات من الانتقال لسطر جديد */
+    gap: 20px; /* يضيف مسافة بين الكاردات */
+    /* overflow-x: auto; يضيف شريط تمرير أفقي إذا لم تتسع الشاشة */
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .related-products .column-md-4 {
+    flex: 0 0 350px; /* يجعل كل كارد يأخذ عرض 300px */
+    background: #FBF9FF; /* خلفية الكارد */
+    padding: 25px;
+    border-radius: 10px; /* زوايا دائرية للكارد */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    text-align: center;
+    transition: transform 0.5s ease; 
+  }
+  .related-products .column-md-4:hover {
+    transform: translateY(1px); /* تكبير الصورة عند تمرير الماوس */
+  }  
+  .related-products img {
+    width: 50%; /* اجعل الصورة تمتد بعرض الكارد */
+    height: 150px; /* حدد ارتفاع ثابت */
+    object-fit: cover; /* تأكد من أن الصورة مغطاة بالكامل */
+    border-radius: 10px; /* زوايا مستديرة */
+  }
+  
+  .related-products h4 {
+    margin: 10px 0;
+    /* font-size: 1.25rem; */
+    color: #000000;
+   
+  }
+  
+  
+
+  .related-products .btn {
+    display: inline-block;
+    background: #CDC1FF; /* Dark gray button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .related-products .btn:hover {
+    background: #A294F9; /* Slightly lighter on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .related-products .btn:active {
+    background: #2d2d2e; /* Darker shade when clicked */
+    transform: translateY(0);
+  }
+/*** Footer ***/
+.footer{
+  background-color: #FBF9FF;
+}
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid #FFFFFF;
+  transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: #A294F9;
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+  text-decoration: none;
+  position: relative;
+  content: "\f105";
+  /* font-family: "Font Awesome 5 Free"; */
+  font-weight: 900;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.footer .btn.btn-link:hover {
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+  color: var(--light);
+}
+
+.footer .copyright a:hover {
+  color: #A294F9;
+}
+.footerlogo{
+  width:40%;
+  margin-bottom: 20px;
+}
+
+
+  @media (max-width: 768px) {
+    .related-products {
+      flex-wrap: wrap; /* السماح للكاردات بالنزول لأسطر جديدة على الشاشات الصغيرة */
+    }
+  }
+@media (min-width: 768px) {
+  .product-image img, .image-list img {
+    width: 100%;
+  }
+
+  .product-image {
+    display: block;
+  }
+
+  .product-image img {
+    height: 52vh;
+  }
+
+  .product-image img.active {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .image-list {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .image-list li {
+    margin-right: 0.75rem;
+    flex-basis: 100%;
+  }
+
+  .image-list li:nth-child(3) {
+    margin: 0;
+  }
+
+  .image-list img {
+    height: 10rem;
+    width: 100%;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  .image-list img:hover {
+    opacity: 0.7;
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  .flex-nav {
+    display: block;
+  }
+
+  .flex-nav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+  }
+
+  .flex-nav ul li {
+    font-size: 1.125rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.grid.product {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .product-image {
+    flex: 1;
+    order: 1; /* اجعل الصورة على اليسار */
+   
+  }
+  
+  .product-description {
+    flex: 1;
+    order: 2; /* اجعل الوصف على اليمين */
+  }
+
+  .product-image img {
+    width: 100%; /* اجعل الصورة تأخذ العرض الكامل للحاوية */
+    height: auto; /* اجعل الارتفاع تلقائي لتناسب العرض */
+    max-height: 60vh; /* حدد ارتفاعًا مناسبًا إذا لزم الأمر */
+    object-fit: cover; /* تأكد من أن الصورة تملأ الحاوية دون تشويه */
+  }
+  .image-list {
+    display: flex;
+    /* gap: 10px; اضف مسافة بين الصور */
+  }
+  
+  .image-item img {
+    width: 280px; /* تعديل عرض الصور المصغرة */
+    height: 150px; /* تعديل ارتفاع الصور المصغرة */
+    object-fit: cover; /* تأكد من أن الصورة لا يتم تمديدها */
+    cursor: pointer; /* اجعلها قابلة للنقر */
+    transition: transform 0.3s ease; /* إضافة تأثير عند التحويل */
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.1); /* تكبير الصورة عند تمرير الماوس */
+  }  
+  .column-md-7 {
+    flex: 1.5; /* اجعل هذا العمود يأخذ مساحة أكبر */
+  }
+  
+  .column-md-5 {
+    flex: 1; /* اجعل عمود النص أصغر قليلاً */
+  }
+
+
+
+
+
+
+
+  /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 140px 0 60px 0;
+    min-height: 30vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .breadcrumbs:before {
+   
+    background-color: #e1d6f7;
+    position: absolute;
+    inset: 0;
+   
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 56px;
+text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: var(--font-secondary);
+  }
+
+
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 124px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .category img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px dashed #ffffff;
+    
+    }
+
+    .category h3 {
+        margin: 10px 0 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .category p {
+        margin: 0;
+        font-size: 12px;
+        color: #777;
+    }
+
+.servimg img {
+    width: 80px;
+    height: 80px;
+/*    border-radius: 50%;*/
+    object-fit: cover;
+    border: 3px dashed #ffffff;
+    background-color: #ddd;
+}

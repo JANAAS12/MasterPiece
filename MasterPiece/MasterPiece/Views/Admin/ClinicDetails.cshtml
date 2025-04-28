@@ -1,0 +1,83 @@
+﻿@model MasterPiece.Models.Clinic
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Clinic Details";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <img src="~/images/clinics/@Model.Image" class="card-img-top" alt="@Model.Name">
+                }
+                <div class="card-body">
+                    <h1 class="card-title">@Model.Name</h1>
+                    <p class="text-muted">
+                        <i class="fas fa-map-marker-alt"></i> @Model.Location
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-primary">@Model.Category</span>
+                    </div>
+                    <p class="card-text">@Model.Description</p>
+                    <hr />
+                    <h5>Working Hours</h5>
+                    <p>@Model.WorkingHours</p>
+                </div>
+            </div>
+
+            <!-- Gallery -->
+            <h4>Gallery</h4>
+            <div class="row">
+                @if (!string.IsNullOrEmpty(Model.Image1))
+                {
+                    <div class="col-md-4 mb-3">
+                        <img src="~/images/clinics/@Model.Image1" class="img-thumbnail" alt="Clinic image">
+                    </div>
+                }
+                @if (!string.IsNullOrEmpty(Model.Image2))
+                {
+                    <div class="col-md-4 mb-3">
+                        <img src="~/images/clinics/@Model.Image2" class="img-thumbnail" alt="Clinic image">
+                    </div>
+                }
+                @if (!string.IsNullOrEmpty(Model.Image3))
+                {
+                    <div class="col-md-4 mb-3">
+                        <img src="~/images/clinics/@Model.Image3" class="img-thumbnail" alt="Clinic image">
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Contact Info</h5>
+                </div>
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(Model.Phone))
+                    {
+                        <p>
+                            <i class="fas fa-phone"></i> @Model.Phone
+                        </p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Email))
+                    {
+                        <p>
+                            <i class="fas fa-envelope"></i> @Model.Email
+                        </p>
+                    }
+                    <a href="#" class="btn btn-primary w-100">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}

@@ -1,0 +1,90 @@
+﻿﻿﻿
+@model MasterPiece.Models.PetOwner
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/Login.css" />
+
+</head>
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container sign-in-container">
+            <form asp-action="SignUp" asp-controller="User" method="post">
+                <img src="~/Img/PetNetLogo.png" class="logo">
+                <h1>Sign Up</h1>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger" style="color:red"></div>
+                <input type="text" placeholder="Name" asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger" style="color:red"></span>
+                <input type="email" placeholder="Email" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger" style="color:red"></span>
+                <input type="password" placeholder="Password" asp-for="Password" />
+                <span asp-validation-for="Password" class="text-danger" style="color:red"></span>
+
+                <input type="hidden" id="userTypeInput" name="UserType" value="" />
+
+            
+                <button type="submit" onclick="setUserType('User')">Sign Up User</button>
+
+                <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                    Already have an account? <a href="#!" style="color: #393f81; font-weight:bold ;">Login </a>
+                </p>
+                @if (ViewData["ErrorMessage"] != null)
+                {
+                    <p class="text-danger">@ViewData["ErrorMessage"]</p>
+                }
+            </form>
+
+           
+
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <img src="/Img/test1.jpg" class="background-img " >
+                <div class="overlay-panel overlay-right text-content">
+                   
+                    <h1>Welcome to PetNet! </h1>
+                    <p>Sign up and let’s take this journey of love and care for your furry friend together!</p>
+                
+                    @* <img src="~/Img/image.png" style="width:100%;height: 78%;margin-right: 10%;margin-bottom: 20%;"> *@
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <b>	Follow Us On </b>
+        <div class="icons">
+     
+            <a href="https://www.instagram.com/vaibhavkhulbe143/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/vaibhav_khulbe" target="_blank" class="social"><i class="fab fa-twitter-square"></i></a>
+           
+        </div>
+    </div>
+
+
+    <script>
+        function setUserType(type) {
+            debugger
+            document.getElementById('userTypeInput').value = type;
+        }
+    </script>
+
+
+
+    </script>
+</body>
+</html>

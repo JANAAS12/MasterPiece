@@ -1,0 +1,100 @@
+﻿@model MasterPiece.Models.Clinic
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ClinicDetails.css" />
+}
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-color: #e6e3fb;">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Clinic Details</h2>
+
+    </div>
+</div><!-- End Breadcrumbs -->
+
+
+
+<div class="container">
+
+    <div class="grid product">
+        <div class="column-xs-12 column-md-7">
+            <div class="product-gallery">
+                <div class="product-image">
+                    <img class="active" src="~/Img/@Model.Image">
+                </div>
+                <ul class="image-list">
+                    <li class="image-item"><img src="~/Img/@Model.Image1"></li>
+                    <li class="image-item"><img src="~/Img/@Model.Image2"></li>
+                    <li class="image-item"><img src="~/Img/@Model.Image3"></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="column-xs-12 column-md-5" style="margin-top: 5%;">
+            <h1>@Model.Name</h1><br><br><br>
+            <h6>
+                <div style="display: flex;">
+                    <i class="fa-solid fa-location-dot" style=" color: #A294F9;"></i>
+                    <p style="margin-left: 5px; "> <span style="font-weight: bold;"> Location:</span> @Model.Location</p>
+                </div>
+                <div style="display: flex;">
+                    <i class="fa-solid fa-clock" style=" color: #A294F9;"></i>
+                    <p style="margin-left: 5px ;"> <span style="font-weight: bold;">  Working hours :</span> @Model.WorkingHours</p>
+                </div>
+            </h6>
+            <br />
+            <div class="description">
+                <br>
+                <br>
+                <p>@Model.Description.</p>
+                <a asp-controller="Clinics" asp-action="Appointment" asp-route-serviceId="@Model.Id" class="btn btn-primary">
+                    Book Now
+                </a>
+            </div>
+           
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <h2 style="text-align:center !important;"> Services</h2>
+
+    <div class="categories">
+        <div class="category" style="background-color: #fff8e1;">
+            <img src="~/Img/vaccination.png" alt="vaccination">
+            @* <h3>Vaccination</h3> *@
+            <a asp-controller="Clinics" asp-action="ClinicServices" asp-route-id="1">Vaccination</a>
+        </div>
+
+        <div class="category" style="background-color: #e8f5e9;">
+            <img src="~/Img/grooming.png" alt="Grooming">
+            @* <h3>Grooming</h3> *@
+            <a asp-controller="Clinics" asp-action="ClinicServices" asp-route-id="2">Grooming</a>
+        </div>
+
+        <div class="category" style="background-color: #e3f2fd;">
+            <img src="~/Img/sergery.png" alt="Fish">
+            @* <h3>Surgery</h3> *@
+            <a asp-controller="Clinics" asp-action="ClinicServices" asp-route-id="3">Surgery</a>
+        </div>
+
+        <div class="category" style="background-color: #fce4ec;">
+            <img src="~/Img/dental.png" alt="Bird">
+            @* <h3>Dental Care</h3> *@
+            <a asp-controller="Clinics" asp-action="ClinicServices" asp-route-id="4">Dental Care</a>
+        </div>
+
+        <div class="category" style="background-color: #f3e5f5;">
+            <img src="~/Img/checkUp.png" alt="Hamster">
+            @* <h3>Check-Ups</h3> *@
+            <a asp-controller="Clinics" asp-action="ClinicServices" asp-route-id="5">Check-Ups</a>
+        </div>
+    </div>
+
+   

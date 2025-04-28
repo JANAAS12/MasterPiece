@@ -1,0 +1,163 @@
+﻿@model MasterPiece.Models.Clinic
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Edit Clinic";
+}
+
+@section Styles {
+    <script>
+        function previewImage(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('previewImage').src = e.target.result;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+}
+
+<div class="col-md-10 mx-auto">
+    <form asp-action="EditClinic" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Edit Clinic</h5>
+            </div>
+            <div class="card-body">
+                <div class="media align-items-center mb-3">
+                    @if (!string.IsNullOrEmpty(Model.Image))
+                    {
+                        <img src="~/images/clinics/@Model.Image" id="previewImage" class="d-block ui-w-80 rounded-circle" />
+                    }
+                    else
+                    {
+                        <img src="~/images/placeholder.png" id="previewImage" class="d-block ui-w-80 rounded-circle" />
+                    }
+                    <div class="media-body ml-4">
+                        <label class="btn btn-outline-primary">
+                            Change Main Image
+                            <input type="file" asp-for="ImageFile" class="form-control" accept="image/*" onchange="previewImage(this)" />
+                        </label>
+                        @if (!string.IsNullOrEmpty(Model.Image))
+                        {
+                            <div class="mt-2">
+                                <input type="checkbox" id="removeImage" name="removeImage" />
+                                <label for="removeImage">Remove current image</label>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Clinic Name</label>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Location</label>
+                    <input asp-for="Location" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input asp-for="Phone" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Working Hours</label>
+                    <input asp-for="WorkingHours" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>Category</label>
+                    <select asp-for="Category" class="form-control">
+                        <option value="General">General Veterinary</option>
+                        <option value="Specialized">Specialized Veterinary</option>
+                        <option value="Emergency">Emergency Veterinary</option>
+                        <option value="PetGrooming">Pet Grooming</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Rating</label>
+                    <input asp-for="Rating" class="form-control" type="number" min="1" max="5" />
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                </div>
+
+                <hr />
+
+                <h6>Extra Images</h6>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Image 1</label>
+                            @if (!string.IsNullOrEmpty(Model.Image1))
+                            {
+                                <div class="mb-2">
+                                    <img src="~/images/clinics/@Model.Image1" class="img-thumbnail" style="max-height: 100px;" />
+                                    <div class="mt-2">
+                                        <input type="checkbox" id="removeImage1" name="removeImage1" />
+                                        <label for="removeImage1">Remove this image</label>
+                                    </div>
+                                </div>
+                            }
+                            <input type="file" asp-for="ImageFile1" class="form-control" accept="image/*" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Image 2</label>
+                            @if (!string.IsNullOrEmpty(Model.Image2))
+                            {
+                                <div class="mb-2">
+                                    <img src="~/images/clinics/@Model.Image2" class="img-thumbnail" style="max-height: 100px;" />
+                                    <div class="mt-2">
+                                        <input type="checkbox" id="removeImage2" name="removeImage2" />
+                                        <label for="removeImage2">Remove this image</label>
+                                    </div>
+                                </div>
+                            }
+                            <input type="file" asp-for="ImageFile2" class="form-control" accept="image/*" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Image 3</label>
+                            @if (!string.IsNullOrEmpty(Model.Image3))
+                            {
+                                <div class="mb-2">
+                                    <img src="~/images/clinics/@Model.Image3" class="img-thumbnail" style="max-height: 100px;" />
+                                    <div class="mt-2">
+                                        <input type="checkbox" id="removeImage3" name="removeImage3" />
+                                        <label for="removeImage3">Remove this image</label>
+                                    </div>
+                                </div>
+                            }
+                            <input type="file" asp-for="ImageFile3" class="form-control" accept="image/*" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-right mt-4">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                    <a asp-action="ViewClinics" class="btn btn-secondary">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
